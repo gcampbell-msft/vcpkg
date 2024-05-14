@@ -1,5 +1,5 @@
 {
-    "name": "sqlite3-vs",
+    "name": "sqlite3-test",
     "version": "3.42.0",
     "description": "Attempting sqlite for VS",
     "license": "MIT"

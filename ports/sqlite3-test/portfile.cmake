@@ -13,10 +13,10 @@ vcpkg_extract_source_archive(
 )
 
 
-file(COPY "${SOURCE_PATH}/shell.c" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-vs")
-file(COPY "${SOURCE_PATH}/sqlite3.c" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-vs")
-file(COPY "${SOURCE_PATH}/sqlite3.h" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-vs")
-file(COPY "${SOURCE_PATH}/sqlite3ext.h" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-vs")
+file(COPY "${SOURCE_PATH}/shell.c" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-test")
+file(COPY "${SOURCE_PATH}/sqlite3.c" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-test")
+file(COPY "${SOURCE_PATH}/sqlite3.h" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-test")
+file(COPY "${SOURCE_PATH}/sqlite3ext.h" DESTINATION "${CURRENT_PACKAGES_DIR}/msbuild-sqlite3-test")
 file(COPY "${SOURCE_PATH}/sqlite3.h" DESTINATION "${CURRENT_PACKAGES_DIR}/include")
 file(COPY "${SOURCE_PATH}/sqlite3ext.h" DESTINATION "${CURRENT_PACKAGES_DIR}/include")
 file(WRITE "${CURRENT_PACKAGES_DIR}/share/${PORT}/copyright" "SQLite is in the Public Domain.\nhttp://www.sqlite.org/copyright.html\n")
